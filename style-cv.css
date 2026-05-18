@@ -33,9 +33,7 @@ html, body {
   color: var(--text-dark);
 }
 
-/* ═══════════════════════════════════
-   WRAPPER
-═══════════════════════════════════ */
+
 .contenu-CV {
   width: 100%;
   max-width: 920px;
@@ -49,9 +47,8 @@ html, body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ═══════════════════════════════════
-   HEADER  (photo gauche + infos droite)
-═══════════════════════════════════ */
+
+
 header {
   background: var(--bg-header);
   display: grid;
@@ -64,7 +61,7 @@ header {
   align-items: stretch;
 }
 
-/* Bloc photo — fond navy comme le modèle */
+
 .photo-wrap {
   background: var(--navy);
   display: flex;
