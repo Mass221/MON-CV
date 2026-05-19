@@ -1,26 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap'); */
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-:root {
-  --navy:        #0f1f45;
-  --navy-mid:    #162b5e;
-  --accent:      #1a6bcc;
-  --accent-lite: #d6e6f8;
-  --bg-page:     #b8c8dc;
-  --bg-right:    #f0f4fb;
-  --bg-header:   #dce6f5;
-  --text-dark:   #0f1f45;
-  --text-body:   #2a3858;
-  --text-muted:  #607090;
-  --white:       #ffffff;
-  --border:      #c5d4ea;
-  --dot:         #1a6bcc;
-}
 
 html, body {
   min-height: 100%;
@@ -279,7 +262,7 @@ header {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--white);
+  color: white;
 }
 
 .entry-date {
